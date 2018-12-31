@@ -1,0 +1,40 @@
+<div id="header">
+  <h1 id="title">The Great Survey Project of 2018</h1>
+  <p id="description">Gathering the facts one question at a time</p>
+</div>
+<div id="form">
+  <form id="survey-form">
+    </br>
+    <label id="name-label">Enter Your Name: </label>
+    <input id="name" type="text" required placeholder="Barack Obama"></br>
+    </br>
+    <label id="email-label">Enter Your Email: </label>
+    <input id="email" type="email" required placeholder="blah@blah.blah"></br>
+    </br>
+    <label id="number-label">Enter Your Age: </label><input id="number" type="number" min="18" max="100" placeholder="42"></br>
+    </br>
+    Are You Happy With Your Life? <select id="dropdown">
+    <option>Of Course!</option>
+    <option>Hell No!</option>
+    <option>Too Soon To Tell</option>
+</select></br>
+    </br>
+    Please Choose Your Type of Music:</br><label for="music">
+  Rock<input value="music" type="radio" name="music" multiple></br>
+Hip-Hop<input value="music" type="radio" name="music" multiple></br>
+Ewww, Country<input value="music" type="radio" name="music" multiple></br>
+</label>
+    </br>
+    </br>
+    Check Any Pets You Own: (Check All That Apply)<label for="pet"></br>
+Dog<input value="pet" type="checkbox" multiple></br>
+Cat<input value="pet" type="checkbox" multiple></br>
+Sloth<input value="pet" type="checkbox" multiple></br>
+None<input value="pet" type="checkbox" multiple></br></br>
+</label>
+    <textarea name="comments" rows="10" cols="100" placeholder="Please leave any comments about me here...but be kind.">
+</textarea>
+    </br>
+    <button id="submit" type="submit" onclick="alert('hello, world')">Submit</button>
+  </form>
+</div>
